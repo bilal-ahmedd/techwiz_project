@@ -1,0 +1,83 @@
+[
+    {
+        "class" : "English Class",
+        "date": "11/08/2022",
+        "day": "Thursday",
+        "time": "09:00 AM",
+        "content": "Confidence Building"
+    },
+
+    {
+        "class" : "Urdu Class",
+        "date": "11/08/2022",
+        "day": "Thursday",
+        "time": "12:00 PM",
+        "content": "Essay Creation"
+    },
+
+
+    {
+        "class" : "Computer Class",
+        "date": "12/08/2022",
+        "day": "Friday",
+        "time": "09:00 AM",
+        "content": "Learning Styling"
+    },
+
+
+    {
+        "class" : "Math Class",
+        "date": "12/08/2022",
+        "day": "Friday",
+        "time": "12:00 PM",
+        "content": "Calculating"
+    },
+
+    {
+        "class" : "Pakstudies Class",
+        "date": "13/08/2022",
+        "day": "Saturday",
+        "time": "09:00 AM",
+        "content": "Learning Ideology"
+    },
+
+    {
+        "class" : "Islamiat Class",
+        "date": "13/08/2022",
+        "day": "Saturday",
+        "time": "12:00 PM",
+        "content": "Hadees Translation"
+    },
+
+    {
+        "class" : "Physics Class",
+        "date": "15/08/2022",
+        "day": "Monday",
+        "time": "09:00 AM",
+        "content": "Introduction To Physics"
+    },
+
+    {
+        "class" : "Science Class",
+        "date": "15/08/2022",
+        "day": "Monday",
+        "time": "12:00 PM",
+        "content": "Digestive System"
+    },
+
+    {
+        "class" : "Chemistry Class",
+        "date": "16/08/2022",
+        "day": "Tuesday",
+        "time": "09:00 AM",
+        "content": "Atomic Structure"
+    },
+
+    {
+        "class" : "History Class",
+        "date": "16/08/2022",
+        "day": "Tuesday",
+        "time": "12:00 PM",
+        "content": "History Of Pakistan"
+    }
+]

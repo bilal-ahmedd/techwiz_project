@@ -1,0 +1,63 @@
+[
+    {
+        "class" : "English Class",
+        "videos": "https://youtu.be/6Ql5mQdxeWk",
+        "book": "https://adamjeecoaching.blogspot.com/2014/09/english-notes-for-class-10th.html"
+    },
+
+    {
+        "class" : "Urdu Class",
+        "videos": "https://youtu.be/bkxyeUC3qao",
+        "book": "https://adamjeecoaching.blogspot.com/2012/05/urdu-notes-for-xi.html"
+    },
+
+
+    {
+        "class" : "Computer Class",
+        "videos": "https://youtu.be/KM1dCzwNYfs",
+        "book": "https://adamjeecoaching.blogspot.com/2014/06/computer-ix-notes-question-answers-mcqs-online-mcqs-test.html"
+    },
+
+
+    {
+        "class" : "Math Class",
+        "videos": "https://youtu.be/sx6dD-nLkBA",
+        "book": "https://adamjeecoaching.blogspot.com/2015/02/mathematics-notes-for-class-10th.html"
+    },
+
+    {
+        "class" : "Pakstudies Class",
+        "videos": "https://youtu.be/l2XZfzsKrEQ",
+        "book": "https://adamjeecoaching.blogspot.com/2014/08/pakistan-studies-ix-notes.html"
+    },
+
+    {
+        "class" : "Islamiat Class",
+        "videos": "https://youtu.be/G6waTxKrZRU",
+        "book": "https://adamjeecoaching.blogspot.com/2013/11/islamiat-notes-for-xi.html"
+    },
+
+    {
+        "class" : "Physics Class",
+        "videos": "https://youtu.be/Sx_z1HDa0yM",
+        "book": "https://adamjeecoaching.blogspot.com/2015/10/physics-notes-for-class-10th.html"
+    },
+
+    {
+        "class" : "Science Class",
+        "videos": "https://youtu.be/_S_lTEqlt4s",
+        "book": "https://adamjeecoaching.blogspot.com/p/9th-class-notes.html"
+    },
+
+    {
+        "class" : "Chemistry Class",
+        "videos": "https://youtu.be/k3rRrl9J2F4",
+        "book": "https://adamjeecoaching.blogspot.com/2014/10/chemistry-ix-notes-theory-question-answer-blanks-mcqs-online-mcqs-test-ix.html"
+    },
+
+    {
+        "class" : "History Class",
+        "videos": "https://youtu.be/3vxrDqTIi6k",
+        "book": "https://adamjeenotespak.blogspot.com/"
+    }
+]

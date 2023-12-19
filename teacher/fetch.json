@@ -1,0 +1,23 @@
+[    {
+        "id" : 1,
+        "name" : "Father Name",
+        "fathername" : "Name",
+        "class" : "10th"
+    },
+    {
+        "id" : 2,
+        "subjecName": "English",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+    {
+        "id" : 3,
+        "subjecName": "English",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    }
+]

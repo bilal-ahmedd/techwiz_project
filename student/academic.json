@@ -1,0 +1,93 @@
+[
+    {
+        "class" : "English Class",
+        "attendance": "Very Good",
+        "progress": "Very Good",
+        "conduct": "70%",
+        "homework": "Average",
+        "remarks": "Average"
+    },
+
+    {
+        "class" : "Urdu Class",
+        "attendance": "Good",
+        "progress": "Average",
+        "conduct": "80%",
+        "homework": "Very Good",
+        "remarks": "Will updated by Teacher!"
+    },
+
+
+    {
+        "class" : "Computer Class",
+        "attendance": "Very Good",
+        "progress": "Very Good",
+        "conduct": "75%",
+        "homework": "Good",
+        "remarks": "Excellent"
+    },
+
+
+    {
+        "class" : "Math Class",
+        "attendance": "Very Good",
+        "progress": "Very Good",
+        "conduct": "65%",
+        "homework": "Good",
+        "remarks": "Excellent"
+    },
+
+    {
+        "class" : "Pakstudies Class",
+        "attendance": "Very Good",
+        "progress": "Very Good",
+        "conduct": "70%",
+        "homework": "Average",
+        "remarks": "Will updated by Teacher!"
+    },
+
+    {
+        "class" : "Islamiat Class",
+        "attendance": "Fair",
+        "progress": "Very Good",
+        "conduct": "70%",
+        "homework": "Fair",
+        "remarks": "Will updated by Teacher!"
+    },
+
+    {
+        "class" : "Physics Class",
+        "attendance": "Good",
+        "progress": "Very Good",
+        "conduct": "70%",
+        "homework": "Average",
+        "remarks": "Good"
+    },
+
+    {
+        "class" : "Science Class",
+        "attendance": "Very Good",
+        "progress": "Very Good",
+        "conduct": "70%",
+        "homework": "Average",
+        "remarks": "Will updated by Teacher!"
+    },
+
+    {
+        "class" : "Chemistry Class",
+        "attendance": "Very Good",
+        "progress": "Very Good",
+        "conduct": "70%",
+        "homework": "Average",
+        "remarks": "Excellent"
+    },
+
+    {
+        "class" : "History Class",
+        "attendance": "Very Good",
+        "progress": "Very Good",
+        "conduct": "70%",
+        "homework": "Average",
+        "remarks": "Fair"
+    }
+]

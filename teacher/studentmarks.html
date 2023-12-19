@@ -1,0 +1,147 @@
+<div class="shot-screen">
+<div class="container">
+    <div class="heading">
+    <h2> Marks</h2>
+</div>
+<div class="dropdown">
+    <div class="select_button">
+        <div class="col-sm-12 col-md-2">
+    <select name="dropdown" id="options" value="">
+        <option value="Enrollment-No"> Enrollment No </option>
+        <option value="Enrollment-1"> sfc-1305 </option>
+        <option value="Enrollment-2"> sfc-1509 </option>
+        <option value="Enrollment-3"> sfc-1236 </option>
+        <option value="Enrollment-4"> sfc-2215 </option>
+        <option value="Enrollment-5"> sfc-1159 </option>
+    </select>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <button onclick="enroll()" class="btn">Search</button>
+        </div>
+        </div>
+    <div class="input_details">
+        <div class="col-sm-12 col-md-4">
+    <label for="">Student Name:</label>
+    <input class="readonly" id="name" type="text" readonly>
+    </div>
+    
+    <div class="col-sm-12 col-md-4">
+    <label for=""> Father Name: </label>
+    <input class="readonly" id="f-name" type="text" readonly>
+    </div>
+
+    <div class="col-sm-12 col-md-4">
+    <label for=""> Class: </label>
+    <input class="readonly" id="class" type="text" readonly>
+    </div>
+    </div>
+</div>
+</div>
+<div class="container my-3">
+    <div class="table-responsive">
+        <table class="table table-bordered" ng-controller="myctrl">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Subject Name</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Obtained</th>
+                    <th scope="col">Remarks</th>
+                    <th scope="col">Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th scope="col"> 1 </th>
+                    <td scope="col"> English </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks" id="obtained" onchange="marks()" onblur="Empty()"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col" id="result"></td>
+            </tbody>
+            <tbody>
+                <th scope="col"> 2 </th>
+                    <td scope="col"> Urdu </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 3 </th>
+                    <td scope="col"> Computer </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 4 </th>
+                    <td scope="col"> Maths </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 5 </th>
+                    <td scope="col"> Pak Studies </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 6 </th>
+                    <td scope="col"> Islamiat </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 7 </th>
+                    <td scope="col"> Physics </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 8 </th>
+                    <td scope="col"> Science </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 9 </th>
+                    <td scope="col"> Chemistry </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+
+            <tbody>
+                <th scope="col"> 10 </th>
+                    <td scope="col"> History </td>
+                    <td scope="col"> 100 </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Marks"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"></td>
+                    <td scope="col"></td>
+            </tbody>
+        </table>
+        <div class="submit">
+        <button class="btn"> Submit</button>
+        </div>
+    </div>
+</div>
+</div>

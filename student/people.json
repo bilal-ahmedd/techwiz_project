@@ -1,0 +1,90 @@
+[
+    {
+        "id" : 1,
+        "subjecName": "English",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+
+    {
+        "id" : 2,
+        "subjecName": "Urdu",
+        "total": 100,
+        "obtained": 98,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+
+
+    {
+        "id" : 3,
+        "subjecName": "Computer",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+
+
+    {
+        "id" : 4,
+        "subjecName": "Math",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+
+
+    {
+        "id" : 5,
+        "subjecName": "Pak Study",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+
+    {
+        "id" : 6,
+        "subjecName": "islamait",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+    {
+        "id" : 7,
+        "subjecName": "Physics",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+    {
+        "id" : 8,
+        "subjecName": "Science",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+    {
+        "id" : 9,
+        "subjecName": "Chemistry",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    },
+    {
+        "id" : 10,
+        "subjecName": "History",
+        "total": 100,
+        "obtained": 73,
+        "remarks": "to  be added",
+        "Pass": "Pass"
+    }
+]

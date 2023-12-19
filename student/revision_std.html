@@ -1,0 +1,32 @@
+<div class="shot-screen">
+<div class="container">
+    <div class="heading">
+    <h2> Revision Classes</h2>
+</div>
+</div>
+<div class="container my-3">
+    <div class="table-responsive">
+        <table class="table table-bordered" ng-controller="myc">
+            <input type="search" ng-model="search" placeholder="Search">
+            <thead>
+                <tr>
+                    <th scope="col">Class</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Day</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Content</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="a in data | filter:search">
+                    <th scope="row">{{a.class}}</th>
+                    <td>{{a.date}}</td>
+                    <td>{{a.day}}</td>
+                    <td>{{a.time}}</td>
+                    <td>{{a.content}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>

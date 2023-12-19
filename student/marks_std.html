@@ -1,0 +1,34 @@
+<div class="shot-screen">
+<div class="container">
+    <div class="heading">
+    <h2> Marks</h2>
+</div>
+</div>
+<div class="container my-3">
+    <div class="table-responsive">
+        <table class="table table-bordered" ng-controller="myctrl">
+            <input type="search" ng-model="search" placeholder="Search">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Subject Name</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Obtained</th>
+                    <th scope="col">Remarks</th>
+                    <th scope="col">Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="a in data | filter:search">
+                    <th scope="row">{{a.id}}</th>
+                    <td>{{a.subjecName}}</td>
+                    <td>{{a.total}}</td>
+                    <td>{{a.obtained}}</td>
+                    <td>{{a.remarks}}</td>
+                    <td>{{a.Pass}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>

@@ -1,0 +1,42 @@
+<div class="shot-screen">
+<div class="container">
+    <div class="heading">
+    <h2> Academic Progress</h2>
+</div>
+<div class="dropdown">
+    <div class="input_details">
+        <div class="col-sm-12 col-md-4">
+    <label for="">Student Name:</label>
+    <input class="readonly" id="name" type="text" readonly value="Alex">
+    </div>
+    </div>
+</div>
+</div>
+<div class="container my-3">
+    <div class="table-responsive">
+        <table class="table table-bordered" ng-controller="myctr">
+            <input type="search" ng-model="search" placeholder="Search">
+            <thead>
+                <tr>
+                    <th scope="col">Class</th>
+                    <th scope="col">Attendance</th>
+                    <th scope="col">Progress</th>
+                    <th scope="col">Conduct</th>
+                    <th scope="col">Homework</th>
+                    <th scope="col">Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="a in data | filter:search">
+                    <th scope="row">{{a.class}}</th>
+                    <td>{{a.attendance}}</td>
+                    <td>{{a.progress}}</td>
+                    <td>{{a.conduct}}</td>
+                    <td>{{a.homework}}</td>
+                    <td>{{a.remarks}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>

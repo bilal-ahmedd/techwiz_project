@@ -1,0 +1,149 @@
+<div class="shot-screen">
+    <div class="container">
+        <div class="heading">
+            <h2> Academic Progress</h2>
+        </div>
+        <div class="dropdown">
+            <div class="select_button">
+                <div class="col-sm-12 col-md-2">
+                    <select name="dropdown" id="options" value="">
+                        <option value="Enrollment-No"> Enrollment No </option>
+                        <option value="Enrollment-1"> sfc-1305 </option>
+                        <option value="Enrollment-2"> sfc-1509 </option>
+                        <option value="Enrollment-3"> sfc-1236 </option>
+                        <option value="Enrollment-4"> sfc-2215 </option>
+                        <option value="Enrollment-5"> sfc-1159 </option>
+                    </select>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <button onclick="enroll()" class="btn">Search</button>
+                </div>
+            </div>
+            <div class="input_details">
+                <div class="col-sm-12 col-md-4">
+                    <label for="">Student Name:</label>
+                    <input class="readonly" id="name" type="text" readonly>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <label for=""> Father Name: </label>
+                    <input class="readonly" id="f-name" type="text" readonly>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <label for=""> Class: </label>
+                    <input class="readonly" id="class" type="text" readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-3">
+        <div class="table-responsive">
+            <table class="table table-bordered" ng-controller="myctr">
+                <thead>
+                    <tr>
+                        <th scope="col">Class</th>
+                        <th scope="col">Attendance</th>
+                        <th scope="col">Progress</th>
+                        <th scope="col">Conduct</th>
+                        <th scope="col">Homework</th>
+                        <th scope="col">Remarks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <th scope="col"> English Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog"> </td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw"></td>
+                    <td scope="col"></td>
+                    <td scope="col">  <button onclick="onempty()"> Submit</button> <Button> Erase</Button></td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> Urdu Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten1"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog1"> </td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con1"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw1"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty1()"> Submit</button> <Button> Erase</Button></td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> Computer Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten2"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog2"> </td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con2"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw2"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty2()"> Submit</button> <Button> Erase</Button> </td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> Maths Class</h>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten3"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog3"></td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con3"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw3"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty3()"> Submit</button> <Button> Erase</Button></td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> PakStudies Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten4"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog4"></td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con4"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw4"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty4()"> Submit</button> <Button> Erase</Button> </td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> Islamiat Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten5"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog5"></td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con5"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw5"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty5()"> Submit</button> <Button> Erase</Button></td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> Physics Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten6"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog6"></td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con6"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw6"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty6()"> Submit</button> <Button> Erase</Button> </td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> Science Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="atten7"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="prog7"></td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks" id="con7"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks" id="hw7"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty7()"> Submit</button> <Button> Erase</Button> </td>
+                </tbody>
+
+                <tbody>
+                    <th scope="col"> Chemistry Class</th>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"   id="atten8"> </td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"   id="prog8"> </td>
+                    <td scope="col"> <input type="number" class="table_input" placeholder="Enter Marks"   id="con8"></td>
+                    <td scope="col"> <input type="text" class="table_input" placeholder="Enter Remarks"   id="hw8"></td>
+                    <td scope="col"></td>
+                    <td scope="col"> <button onclick="onempty8()"> Submit</button> <Button> Erase</Button> </td>
+                </tbody>
+            </table>
+        </div>
+        <div class="submit">
+            <button class="btn-color"> Submit</button>
+        </div>
+    </div>
+</div>
+

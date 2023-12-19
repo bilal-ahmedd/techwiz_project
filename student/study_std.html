@@ -1,0 +1,30 @@
+<div class="shot-screen">
+<div class="container">
+    <div class="heading">
+    <h2> Study Resources</h2>
+</div>
+</div>
+<div class="container my-3">
+    <div class="table-responsive">
+        <table class="table table-bordered" ng-controller="myct">
+            <input type="search" ng-model="search" placeholder="Search">
+            <thead>
+                <tr>
+                    <th scope="col">Classes</th>
+                    <th scope="col">Videos</th>
+                    <th scope="col">Books</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="a in data | filter:search">
+                    <th scope="row">{{a.class}}</th>
+                    <td><i class="fa fa-circle-play"></i> <a href="{{a.videos}}" target="_blank">Click Here To Play Video</a></td>
+                    <td><i class="fa fa-book"></i> <a href="{{a.book}}" target="_blank">Click Here To Open Book</a></td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
